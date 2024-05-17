@@ -2,11 +2,11 @@
 
 ## Executive Summary
 
-This project aims to explore the correlation and connections between the writings of the Early Christian Church Fathers and ancient Near Eastern antiquity and source texts. Using Natural Language Processing (NLP), various text visualizations, text analysis, NLTK libraries, and other techniques, we will investigate how the writings of the Church Fathers up to 400 AD are influenced by different texts. Specifically, we will analyze which Church Fathers are influenced by the Old Testament, which by the New Testament, and which by other significant ancient texts.
+This project aims to explore the correlation and connections between the writings of the Early Christian Church Fathers and ancient Near Eastern antiquity and source texts. Using Natural Language Processing (NLP), various text visualizations, text analysis, NLTK libraries, and other techniques, we will investigate how the writings of the Church Fathers up to 200 AD are influenced by different texts. Specifically, we will analyze which Church Fathers are influenced by the Old Testament, which by the New Testament, and their overall text similarity to each other.
 
 ## Motivation
 
-The goal of this project is to align timeless wisdom with real-world, innovative solutions. The intersection of ancient texts and modern data science techniques presents a unique and untested opportunity. The fascination with ancient, dusty writings from different eras and cultures drives this investigation, which leverages data science and NLP to analyze a rich historical corpus.
+The goal of this project is to align timeless wisdom with real-world, innovative methodology. The intersection of ancient texts and modern data science techniques presents a unique and untested opportunity. The fascination with ancient, dusty writings from different eras and cultures drives this investigation, which leverages data science and NLP to analyze a rich historical corpus.
 
 ## Data Questions
 
