@@ -1,5 +1,4 @@
-
-PIL
+pillow
 numpy
 matplotlib
 seaborn
