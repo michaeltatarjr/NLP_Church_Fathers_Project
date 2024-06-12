@@ -3,7 +3,6 @@ urllib.error
 PIL
 numpy
 matplotlib
-matplotlib.use('Agg')  # Use Agg backend for non-interactive plotting
 matplotlib.pyplot
 matplotlib.cm
 matplotlib.colors
