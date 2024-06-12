@@ -22,7 +22,9 @@ Mean Number of Words per Document: 25591.0
 Vocabulary Size: 44277 """
 )
 
-image1 = Image.open(path /'./pngs/charactercount.png')
+path = Path(__file__).parent.parent
+
+image1 = Image.open(path /'/pngs/charactercount.png')
 image2 = Image.open(path /'./pngs/timeline.png')
 
 #with col1:
