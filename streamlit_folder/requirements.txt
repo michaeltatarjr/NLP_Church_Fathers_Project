@@ -1,11 +1,11 @@
-urllib
+
 PIL
 numpy
 matplotlib
 seaborn
 scipy
 altair
-sklearn
+scikit-learn
 nltk
 plotly
 pandas
