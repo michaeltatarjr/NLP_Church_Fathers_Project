@@ -1,24 +1,24 @@
-import pickle
-import urllib.error
+pickle
+urllib.error
 from PIL import Image
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.cm
-from matplotlib.colors import Normalize
-import seaborn as sns
-from scipy.cluster.hierarchy import linkage, dendrogram
-from scipy.spatial.distance import pdist, squareform
-import altair as alt
-from sklearn.manifold import TSNE
-from sklearn.feature_extraction.text import TfidfVectorizer
-import nltk
-from nltk.tokenize import sent_tokenize, word_tokenize, regexp_tokenize
-import plotly.express as px
-import pandas as pd
-import geopandas as gpd
-import folium
-from streamlit_folium import st_folium
-from folium.plugins import MarkerCluster, FastMarkerCluster
+numpy as np
+matplotlib.pyplot as plt
+matplotlib.cm
+matplotlib.colors import Normalize
+seaborn as sns
+scipy.cluster.hierarchy import linkage, dendrogram
+scipy.spatial.distance import pdist, squareform
+altair as alt
+sklearn.manifold import TSNE
+sklearn.feature_extraction.text import TfidfVectorizer
+nltk
+nltk.tokenize import sent_tokenize, word_tokenize, regexp_tokenize
+plotly.express as px
+pandas as pd
+geopandas as gpd
+folium
+streamlit_folium import st_folium
+folium.plugins import MarkerCluster, FastMarkerCluster
 
-import matplotlib
+matplotlib
 matplotlib.use('Agg')  # Use Agg backend for non-interactive plotting
