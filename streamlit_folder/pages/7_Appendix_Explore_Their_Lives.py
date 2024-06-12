@@ -44,7 +44,7 @@ st.write(
     """
 )
 #download data
-with open('../pngs/names_locations.DataFrame', 'rb') as file:
+with open('./pngs/names_locations.DataFrame', 'rb') as file:
     names_locations = pickle.load(file)
 
 #Build and center a map

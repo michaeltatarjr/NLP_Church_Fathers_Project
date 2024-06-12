@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_83f4c15b241a54c4498de44a886f9ccf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_83f4c15b241a54c4498de44a886f9ccf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_83f4c15b241a54c4498de44a886f9ccf = L.map(
+                "map_83f4c15b241a54c4498de44a886f9ccf",
+                {
+                    center: [37.98381, 23.727539],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_24e55164997c84b56aefb897c4a8f504 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+            var marker_bd1aa12af671e845ae7d19611f59265a = L.marker(
+                [34.8021, 38.9968],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_2b5069e8592a05c81809e53ce7dc079a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb6b814c042212de391573c0400f18cd = $(`<div id="html_bb6b814c042212de391573c0400f18cd" style="width: 100.0%; height: 100.0%;">Location: [34.8021, 38.9968]</div>`)[0];
+                popup_2b5069e8592a05c81809e53ce7dc079a.setContent(html_bb6b814c042212de391573c0400f18cd);
+            
+        
+
+        marker_bd1aa12af671e845ae7d19611f59265a.bindPopup(popup_2b5069e8592a05c81809e53ce7dc079a)
+        ;
+
+        
+    
+    
+            var marker_ea2ec49ac73ecb126123e68b7e2a48d2 = L.marker(
+                [41.9028, 12.4964],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_f355f69ef2dca756317c97ba6a51b52f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e0637233114ba0bdd2640a186bc1984 = $(`<div id="html_9e0637233114ba0bdd2640a186bc1984" style="width: 100.0%; height: 100.0%;">Location: [41.9028, 12.4964]</div>`)[0];
+                popup_f355f69ef2dca756317c97ba6a51b52f.setContent(html_9e0637233114ba0bdd2640a186bc1984);
+            
+        
+
+        marker_ea2ec49ac73ecb126123e68b7e2a48d2.bindPopup(popup_f355f69ef2dca756317c97ba6a51b52f)
+        ;
+
+        
+    
+    
+            var marker_154f9d3d631cc633e105452825893515 = L.marker(
+                [31.2001, 29.9187],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_d713da34d697eddcaf64d0f1abd82fe5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edab62c356704360f2933b886809ab0c = $(`<div id="html_edab62c356704360f2933b886809ab0c" style="width: 100.0%; height: 100.0%;">Location: [31.2001, 29.9187]</div>`)[0];
+                popup_d713da34d697eddcaf64d0f1abd82fe5.setContent(html_edab62c356704360f2933b886809ab0c);
+            
+        
+
+        marker_154f9d3d631cc633e105452825893515.bindPopup(popup_d713da34d697eddcaf64d0f1abd82fe5)
+        ;
+
+        
+    
+    
+            var marker_a37a2c93bc2bc0042837365272dd5431 = L.marker(
+                [38.4237, 27.1428],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_9d8de228f38b77206fb10746d3ca00fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec2f85d5bb72f9c5a9324f592bb44726 = $(`<div id="html_ec2f85d5bb72f9c5a9324f592bb44726" style="width: 100.0%; height: 100.0%;">Location: [38.4237, 27.1428]</div>`)[0];
+                popup_9d8de228f38b77206fb10746d3ca00fb.setContent(html_ec2f85d5bb72f9c5a9324f592bb44726);
+            
+        
+
+        marker_a37a2c93bc2bc0042837365272dd5431.bindPopup(popup_9d8de228f38b77206fb10746d3ca00fb)
+        ;
+
+        
+    
+    
+            var marker_8963f2b87c5de23cf10cea2c6bdf8755 = L.marker(
+                [41.9028, 12.4964],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_030474d37165eb83f973a22daace9ec4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de5367e49c2535a1447e07b05d9bbe55 = $(`<div id="html_de5367e49c2535a1447e07b05d9bbe55" style="width: 100.0%; height: 100.0%;">Location: [41.9028, 12.4964]</div>`)[0];
+                popup_030474d37165eb83f973a22daace9ec4.setContent(html_de5367e49c2535a1447e07b05d9bbe55);
+            
+        
+
+        marker_8963f2b87c5de23cf10cea2c6bdf8755.bindPopup(popup_030474d37165eb83f973a22daace9ec4)
+        ;
+
+        
+    
+    
+            var marker_f0fd80e4c5d648c8735148ff288af3dd = L.marker(
+                [41.9028, 12.4964],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_b2086faaaffc9920110c6042e4404ee0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19e897291d013ad4d37c83fe3d31d075 = $(`<div id="html_19e897291d013ad4d37c83fe3d31d075" style="width: 100.0%; height: 100.0%;">Location: [41.9028, 12.4964]</div>`)[0];
+                popup_b2086faaaffc9920110c6042e4404ee0.setContent(html_19e897291d013ad4d37c83fe3d31d075);
+            
+        
+
+        marker_f0fd80e4c5d648c8735148ff288af3dd.bindPopup(popup_b2086faaaffc9920110c6042e4404ee0)
+        ;
+
+        
+    
+    
+            var marker_78e486b6d575f431d8f3611032e7b0c6 = L.marker(
+                [36.2021, 37.1343],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_c7ac5174c2892f1e5513fbcebc298538 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53684b11610565c2be39c176c47b4d38 = $(`<div id="html_53684b11610565c2be39c176c47b4d38" style="width: 100.0%; height: 100.0%;">Location: [36.2021, 37.1343]</div>`)[0];
+                popup_c7ac5174c2892f1e5513fbcebc298538.setContent(html_53684b11610565c2be39c176c47b4d38);
+            
+        
+
+        marker_78e486b6d575f431d8f3611032e7b0c6.bindPopup(popup_c7ac5174c2892f1e5513fbcebc298538)
+        ;
+
+        
+    
+    
+            var marker_ac82deb72f89985323b7388e547803dd = L.marker(
+                [38.4237, 27.1428],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_8c48c84243c90bb43faded51fd463ea6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7db5b310c251600541ce049348ba07f4 = $(`<div id="html_7db5b310c251600541ce049348ba07f4" style="width: 100.0%; height: 100.0%;">Location: [38.4237, 27.1428]</div>`)[0];
+                popup_8c48c84243c90bb43faded51fd463ea6.setContent(html_7db5b310c251600541ce049348ba07f4);
+            
+        
+
+        marker_ac82deb72f89985323b7388e547803dd.bindPopup(popup_8c48c84243c90bb43faded51fd463ea6)
+        ;
+
+        
+    
+    
+            var marker_e6b11fcc8b09498af23df14360fbf85b = L.marker(
+                [32.5061, 35.2898],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_78d1622bb6d8440fc2bd8c3c0a98f3d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4812816fad7a1b786d50b40b42d46919 = $(`<div id="html_4812816fad7a1b786d50b40b42d46919" style="width: 100.0%; height: 100.0%;">Location: [32.5061, 35.2898]</div>`)[0];
+                popup_78d1622bb6d8440fc2bd8c3c0a98f3d8.setContent(html_4812816fad7a1b786d50b40b42d46919);
+            
+        
+
+        marker_e6b11fcc8b09498af23df14360fbf85b.bindPopup(popup_78d1622bb6d8440fc2bd8c3c0a98f3d8)
+        ;
+
+        
+    
+    
+            var marker_e5077dc77a75a28933a7955062c1eca2 = L.marker(
+                [36.2021, 37.1343],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_875c64979f4a3e896b0ad7e193c35316 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c2c5dc20b11aa399f2e00f7d2202a0f = $(`<div id="html_8c2c5dc20b11aa399f2e00f7d2202a0f" style="width: 100.0%; height: 100.0%;">Location: [36.2021, 37.1343]</div>`)[0];
+                popup_875c64979f4a3e896b0ad7e193c35316.setContent(html_8c2c5dc20b11aa399f2e00f7d2202a0f);
+            
+        
+
+        marker_e5077dc77a75a28933a7955062c1eca2.bindPopup(popup_875c64979f4a3e896b0ad7e193c35316)
+        ;
+
+        
+    
+    
+            var marker_88b44adaa4a67889dd5e0af8342fc0b4 = L.marker(
+                [32.5061, 35.2898],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_a74f411c2f47ff83a21910e0b58c74f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_442dbe4bafcd7f21c69f52e4cd2a2145 = $(`<div id="html_442dbe4bafcd7f21c69f52e4cd2a2145" style="width: 100.0%; height: 100.0%;">Location: [32.5061, 35.2898]</div>`)[0];
+                popup_a74f411c2f47ff83a21910e0b58c74f6.setContent(html_442dbe4bafcd7f21c69f52e4cd2a2145);
+            
+        
+
+        marker_88b44adaa4a67889dd5e0af8342fc0b4.bindPopup(popup_a74f411c2f47ff83a21910e0b58c74f6)
+        ;
+
+        
+    
+    
+            var marker_5421c2c3f39e6323bc7d7b0387c894d7 = L.marker(
+                [37.9838, 23.7275],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_94e16dc8a7ca960afaccab66f054e2f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_374d8fbb4e6950951e633d1b1c2d2c1e = $(`<div id="html_374d8fbb4e6950951e633d1b1c2d2c1e" style="width: 100.0%; height: 100.0%;">Location: [37.9838, 23.7275]</div>`)[0];
+                popup_94e16dc8a7ca960afaccab66f054e2f8.setContent(html_374d8fbb4e6950951e633d1b1c2d2c1e);
+            
+        
+
+        marker_5421c2c3f39e6323bc7d7b0387c894d7.bindPopup(popup_94e16dc8a7ca960afaccab66f054e2f8)
+        ;
+
+        
+    
+    
+            var marker_7abf52ffa450b83a13cad61e95f26852 = L.marker(
+                [38.3566, 21.5167],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_4ec068ec739a55908ed35019729911d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a126f88b3137c27d550030f9ca598cea = $(`<div id="html_a126f88b3137c27d550030f9ca598cea" style="width: 100.0%; height: 100.0%;">Location: [38.3566, 21.5167]</div>`)[0];
+                popup_4ec068ec739a55908ed35019729911d2.setContent(html_a126f88b3137c27d550030f9ca598cea);
+            
+        
+
+        marker_7abf52ffa450b83a13cad61e95f26852.bindPopup(popup_4ec068ec739a55908ed35019729911d2)
+        ;
+
+        
+    
+    
+            var marker_4f01546adf04a6964764959614aaa555 = L.marker(
+                [31.2001, 29.9187],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_c6b22cbcc9198a8c6351dbe707e0d0c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5cee8e6f24eea8f6d7df7d698d449b1 = $(`<div id="html_f5cee8e6f24eea8f6d7df7d698d449b1" style="width: 100.0%; height: 100.0%;">Location: [31.2001, 29.9187]</div>`)[0];
+                popup_c6b22cbcc9198a8c6351dbe707e0d0c9.setContent(html_f5cee8e6f24eea8f6d7df7d698d449b1);
+            
+        
+
+        marker_4f01546adf04a6964764959614aaa555.bindPopup(popup_c6b22cbcc9198a8c6351dbe707e0d0c9)
+        ;
+
+        
+    
+    
+            var marker_9f74b4d644bedca99617662490a674f2 = L.marker(
+                [36.8065, 10.1815],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_aa2fe651e75b8c64bc2d736b93761411 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcface75679fbac53620745d61d3e5bd = $(`<div id="html_dcface75679fbac53620745d61d3e5bd" style="width: 100.0%; height: 100.0%;">Location: [36.8065, 10.1815]</div>`)[0];
+                popup_aa2fe651e75b8c64bc2d736b93761411.setContent(html_dcface75679fbac53620745d61d3e5bd);
+            
+        
+
+        marker_9f74b4d644bedca99617662490a674f2.bindPopup(popup_aa2fe651e75b8c64bc2d736b93761411)
+        ;
+
+        
+    
+    
+            var marker_0352d9d5dde2d2e71c2a394f55077d4e = L.marker(
+                [34.8021, 38.9968],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_6775cae51fb830a9b83e648ed967a78f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f79546c3dd066f385de168622dd857d = $(`<div id="html_6f79546c3dd066f385de168622dd857d" style="width: 100.0%; height: 100.0%;">Book: The Didache: Author Unknown</div>`)[0];
+                popup_6775cae51fb830a9b83e648ed967a78f.setContent(html_6f79546c3dd066f385de168622dd857d);
+            
+        
+
+        marker_0352d9d5dde2d2e71c2a394f55077d4e.bindPopup(popup_6775cae51fb830a9b83e648ed967a78f)
+        ;
+
+        
+    
+    
+            var marker_7a0cd6529875166ad08e8cebe4c7298e = L.marker(
+                [41.9028, 12.4964],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_67a9d9444ebdecfde23069e12e067497 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1ebe4e3787309417b95fd3ff3aad3f1 = $(`<div id="html_b1ebe4e3787309417b95fd3ff3aad3f1" style="width: 100.0%; height: 100.0%;">Book: Epistle of Clement of Rome: Clement of Rome</div>`)[0];
+                popup_67a9d9444ebdecfde23069e12e067497.setContent(html_b1ebe4e3787309417b95fd3ff3aad3f1);
+            
+        
+
+        marker_7a0cd6529875166ad08e8cebe4c7298e.bindPopup(popup_67a9d9444ebdecfde23069e12e067497)
+        ;
+
+        
+    
+    
+            var marker_64d723908cce73d2f066cd3f32a6431e = L.marker(
+                [31.2001, 29.9187],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_894bcdb5941ba17dd7ea51b36a77f921 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a660fc711188680ebd187205071ba32 = $(`<div id="html_2a660fc711188680ebd187205071ba32" style="width: 100.0%; height: 100.0%;">Book: The Epistle of Barnabas: Unknown authorship, possibly Alexandria, Egypt. (Alexandria, Egypt)</div>`)[0];
+                popup_894bcdb5941ba17dd7ea51b36a77f921.setContent(html_2a660fc711188680ebd187205071ba32);
+            
+        
+
+        marker_64d723908cce73d2f066cd3f32a6431e.bindPopup(popup_894bcdb5941ba17dd7ea51b36a77f921)
+        ;
+
+        
+    
+    
+            var marker_a91345dc64a8c9b8cbe120026b2ee630 = L.marker(
+                [38.4237, 27.1428],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_785c4c4ce02655bf3dcda471544516bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f61806627ade627e544fa22886de7ed = $(`<div id="html_1f61806627ade627e544fa22886de7ed" style="width: 100.0%; height: 100.0%;">Book: Fragments of Papias: Papias(Hierapolis, Turkey)</div>`)[0];
+                popup_785c4c4ce02655bf3dcda471544516bb.setContent(html_1f61806627ade627e544fa22886de7ed);
+            
+        
+
+        marker_a91345dc64a8c9b8cbe120026b2ee630.bindPopup(popup_785c4c4ce02655bf3dcda471544516bb)
+        ;
+
+        
+    
+    
+            var marker_be024528fef68e7c9d7bcab8803926be = L.marker(
+                [41.9028, 12.4964],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_b006c33b29d130b8fc7b8fbb8dc1fba4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d3e9b7497a726f93b90c5f0b451f3dc = $(`<div id="html_4d3e9b7497a726f93b90c5f0b451f3dc" style="width: 100.0%; height: 100.0%;">Book: The Pastor of Hermas: Hermas(Rome, Italy)</div>`)[0];
+                popup_b006c33b29d130b8fc7b8fbb8dc1fba4.setContent(html_4d3e9b7497a726f93b90c5f0b451f3dc);
+            
+        
+
+        marker_be024528fef68e7c9d7bcab8803926be.bindPopup(popup_b006c33b29d130b8fc7b8fbb8dc1fba4)
+        ;
+
+        
+    
+    
+            var marker_3e19caedc10ca7518ba59c18b310088e = L.marker(
+                [41.9028, 12.4964],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_3c9a9a0ac05b1577aee8eb64b2c7c22c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bc82ab145da285e919cafa3800f4c9e = $(`<div id="html_2bc82ab145da285e919cafa3800f4c9e" style="width: 100.0%; height: 100.0%;">Book: Epistle of Adrian Antoninus and Marcus Aurelius:Roman Emperors(Rome, Italy)</div>`)[0];
+                popup_3c9a9a0ac05b1577aee8eb64b2c7c22c.setContent(html_2bc82ab145da285e919cafa3800f4c9e);
+            
+        
+
+        marker_3e19caedc10ca7518ba59c18b310088e.bindPopup(popup_3c9a9a0ac05b1577aee8eb64b2c7c22c)
+        ;
+
+        
+    
+    
+            var marker_8fda01ae9a66149b5c0bbf4f7b792770 = L.marker(
+                [36.2021, 37.1343],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_f1bd93c9c7d9dade38b9713b7e8bed1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d5ec872b22f20aec11fbe9da084db27 = $(`<div id="html_8d5ec872b22f20aec11fbe9da084db27" style="width: 100.0%; height: 100.0%;">Book: Ignatius of Antioch (Antioch, Turkey)</div>`)[0];
+                popup_f1bd93c9c7d9dade38b9713b7e8bed1a.setContent(html_8d5ec872b22f20aec11fbe9da084db27);
+            
+        
+
+        marker_8fda01ae9a66149b5c0bbf4f7b792770.bindPopup(popup_f1bd93c9c7d9dade38b9713b7e8bed1a)
+        ;
+
+        
+    
+    
+            var marker_cad400e21415dbb447a8a35d61b8361f = L.marker(
+                [38.4237, 27.1428],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_003faad5e6b7c88611995460aa2a9360 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de6ba80592aa61f4638217398b06482a = $(`<div id="html_de6ba80592aa61f4638217398b06482a" style="width: 100.0%; height: 100.0%;">Book: The Epistle of Polycarp to the Philippians: Polycarp (Smyrna, Turkey)</div>`)[0];
+                popup_003faad5e6b7c88611995460aa2a9360.setContent(html_de6ba80592aa61f4638217398b06482a);
+            
+        
+
+        marker_cad400e21415dbb447a8a35d61b8361f.bindPopup(popup_003faad5e6b7c88611995460aa2a9360)
+        ;
+
+        
+    
+    
+            var marker_7b5d2077408d4138398b846686458d81 = L.marker(
+                [32.5061, 35.2898],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_3a121f95757b85f9af80b320379479ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a85964a5bd35bc20a89c6e59817e0f8b = $(`<div id="html_a85964a5bd35bc20a89c6e59817e0f8b" style="width: 100.0%; height: 100.0%;">Book: Justin Martyr (Flavia Neapolis, modern-day Nablus, Palestine)</div>`)[0];
+                popup_3a121f95757b85f9af80b320379479ab.setContent(html_a85964a5bd35bc20a89c6e59817e0f8b);
+            
+        
+
+        marker_7b5d2077408d4138398b846686458d81.bindPopup(popup_3a121f95757b85f9af80b320379479ab)
+        ;
+
+        
+    
+    
+            var marker_c326ed856ebaedcc5c07ef3d2778be58 = L.marker(
+                [36.2021, 37.1343],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_b16a5edb630d9d6a908483f79ad39f4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bce22d29aba3d40a24469b6e0a11076b = $(`<div id="html_bce22d29aba3d40a24469b6e0a11076b" style="width: 100.0%; height: 100.0%;">Book: Address of Tatian to the Greeks: Tatian (Assyria, modern-day region in Syria/Iraq)</div>`)[0];
+                popup_b16a5edb630d9d6a908483f79ad39f4b.setContent(html_bce22d29aba3d40a24469b6e0a11076b);
+            
+        
+
+        marker_c326ed856ebaedcc5c07ef3d2778be58.bindPopup(popup_b16a5edb630d9d6a908483f79ad39f4b)
+        ;
+
+        
+    
+    
+            var marker_b0682c1d3bd462303d5aaed511f72fcc = L.marker(
+                [32.5061, 35.2898],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_9c95b7e6b596eaa1f34375bc7922eab8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55d3fdb06541fe461776c0810d1bd76c = $(`<div id="html_55d3fdb06541fe461776c0810d1bd76c" style="width: 100.0%; height: 100.0%;">Book: The First Apology of Justin: Justin Martyr (Flavia Neapolis, modern-day Nablus, Palestine)</div>`)[0];
+                popup_9c95b7e6b596eaa1f34375bc7922eab8.setContent(html_55d3fdb06541fe461776c0810d1bd76c);
+            
+        
+
+        marker_b0682c1d3bd462303d5aaed511f72fcc.bindPopup(popup_9c95b7e6b596eaa1f34375bc7922eab8)
+        ;
+
+        
+    
+    
+            var marker_ca843e42301a118bd1b9ba18cb3d2beb = L.marker(
+                [37.9838, 23.7275],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_78c2a29bc1a39a87dba06184fdc6d9a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b234555eda506739505d4f6fd29b62c = $(`<div id="html_1b234555eda506739505d4f6fd29b62c" style="width: 100.0%; height: 100.0%;">Book: Athenagoras the Athenian: Athenagoras(Athens, Greece)</div>`)[0];
+                popup_78c2a29bc1a39a87dba06184fdc6d9a7.setContent(html_1b234555eda506739505d4f6fd29b62c);
+            
+        
+
+        marker_ca843e42301a118bd1b9ba18cb3d2beb.bindPopup(popup_78c2a29bc1a39a87dba06184fdc6d9a7)
+        ;
+
+        
+    
+    
+            var marker_a17033c60d0387c85887aaeb6cc4530d = L.marker(
+                [38.3566, 21.5167],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_f7aa337835e64058131c98bfc4539c6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c41c67ee64441fadddf1bcc098a2ed2c = $(`<div id="html_c41c67ee64441fadddf1bcc098a2ed2c" style="width: 100.0%; height: 100.0%;">Book: Irenaeus Against Heresies Book I: Irenaeus(Smyrna, Turkey)</div>`)[0];
+                popup_f7aa337835e64058131c98bfc4539c6f.setContent(html_c41c67ee64441fadddf1bcc098a2ed2c);
+            
+        
+
+        marker_a17033c60d0387c85887aaeb6cc4530d.bindPopup(popup_f7aa337835e64058131c98bfc4539c6f)
+        ;
+
+        
+    
+    
+            var marker_4ae5628b336acb4de776a1f68b424d27 = L.marker(
+                [31.2001, 29.9187],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_74c49756dcd707172c9f3cdeee071b3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b41af9ba36696ce6654e055c8cc42153 = $(`<div id="html_b41af9ba36696ce6654e055c8cc42153" style="width: 100.0%; height: 100.0%;">Book: Clement of Alexandria Exhortation to the Heathen: Clement of Alexandria (Alexandria, Egypt)</div>`)[0];
+                popup_74c49756dcd707172c9f3cdeee071b3a.setContent(html_b41af9ba36696ce6654e055c8cc42153);
+            
+        
+
+        marker_4ae5628b336acb4de776a1f68b424d27.bindPopup(popup_74c49756dcd707172c9f3cdeee071b3a)
+        ;
+
+        
+    
+    
+            var marker_1652c231ee765b586787140a732d6ce0 = L.marker(
+                [36.8065, 10.1815],
+                {}
+            ).addTo(map_83f4c15b241a54c4498de44a886f9ccf);
+        
+    
+        var popup_44906f59db42dd316f62fbfbfc695e08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58ce34ab297461e541adcb6c8915e32b = $(`<div id="html_58ce34ab297461e541adcb6c8915e32b" style="width: 100.0%; height: 100.0%;">Book: Tertullian: Tertullian (Carthage, Tunisia)</div>`)[0];
+                popup_44906f59db42dd316f62fbfbfc695e08.setContent(html_58ce34ab297461e541adcb6c8915e32b);
+            
+        
+
+        marker_1652c231ee765b586787140a732d6ce0.bindPopup(popup_44906f59db42dd316f62fbfbfc695e08)
+        ;
+
+        
+    
+</script>
+</html>

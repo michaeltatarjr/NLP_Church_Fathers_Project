@@ -21,11 +21,11 @@ st.write(
 )
 
 #download sets
-with open('../pngs/similarity_matrix2.ndarray', 'rb') as file:
+with open('./pngs/similarity_matrix2.ndarray', 'rb') as file:
     similarity_matrix = pickle.load(file)
 #with open('../pngs/mergings2.set', 'rb') as file:
 #    mergings2 = pickle.load(file)
-with open('../pngs/titles.list', 'rb') as file:
+with open('./pngs/titles.list', 'rb') as file:
     titles = pickle.load(file)
 
     

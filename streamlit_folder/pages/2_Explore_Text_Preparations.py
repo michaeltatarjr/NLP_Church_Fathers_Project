@@ -18,16 +18,16 @@ st.markdown("# Exploring Text Preparation")
 st.sidebar.header("The Tokenization")
 
 #download sets
-with open('../pngs/mergings1.set', 'rb') as file:
+with open('./pngs/mergings1.set', 'rb') as file:
     mergings1 = pickle.load(file)
-with open('../pngs/mergings2.set', 'rb') as file:
+with open('./pngs/mergings2.set', 'rb') as file:
     mergings2 = pickle.load(file)
-with open('../pngs/mergings3.set', 'rb') as file:
+with open('./pngs/mergings3.set', 'rb') as file:
     mergings3 = pickle.load(file)
-with open('../pngs/mergings4.set', 'rb') as file:
+with open('./pngs/mergings4.set', 'rb') as file:
     mergings4 = pickle.load(file)
 
-with open('../pngs/complete_corpus_sentence_tokenized_names.set', 'rb') as file:
+with open('./pngs/complete_corpus_sentence_tokenized_names.set', 'rb') as file:
     complete_corpus_sentence_tokenized_names = pickle.load(file)
 
 st.write(

@@ -24,12 +24,12 @@ In both cases, model is tokenized at the word level, and by term frequency–inv
     """
 )
 #download sets
-with open('../pngs/embeddings_2d.ndarray', 'rb') as file:
+with open('./pngs/embeddings_2d.ndarray', 'rb') as file:
     embeddings_2d = pickle.load(file)
-with open('../pngs/embeddings_3d.ndarray', 'rb') as file:
+with open('./pngs/embeddings_3d.ndarray', 'rb') as file:
     embeddings_3d = pickle.load(file)
 
-with open('../pngs/labels2.set', 'rb') as file:
+with open('./pngs/labels2.set', 'rb') as file:
     labels = pickle.load(file)
 
     

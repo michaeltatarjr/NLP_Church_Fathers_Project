@@ -17,7 +17,7 @@ Use the drop down menu to pick a book, or a group of books to compare to the ent
 
 @st.cache_data
 def get_UN_data():
-    with open('../pngs/sim_matrix2.DataFrame', 'rb') as file:
+    with open('./pngs/sim_matrix2.DataFrame', 'rb') as file:
         LOCAL_URL = pickle.load(file)
         df = LOCAL_URL
         return df.set_index("names")
