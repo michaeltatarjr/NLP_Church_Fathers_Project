@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import matplotlib.cm
 from matplotlib.colors import Normalize
 import seaborn as sns
-
+from pathlib import Path
 
 
 st.set_page_config(page_title="Exploring Patterns in Cosine Similarities", page_icon="📊")
@@ -20,12 +20,15 @@ st.write(
    """
 )
 
+path = Path(__file__).parent.parent
+
+
 #download sets
-with open('./pngs/similarity_matrix.ndarray', 'rb') as file:
+with open(path /'./pngs/similarity_matrix.ndarray', 'rb') as file:
     similarity_matrix = pickle.load(file)
 #with open('../pngs/mergings2.set', 'rb') as file:
 #    mergings2 = pickle.load(file)
-with open('./pngs/titles.list', 'rb') as file:
+with open(path /'./pngs/titles.list', 'rb') as file:
     titles = pickle.load(file)
 
     

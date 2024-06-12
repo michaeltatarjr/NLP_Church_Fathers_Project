@@ -10,21 +10,23 @@ from matplotlib.colors import Normalize
 import seaborn as sns
 from scipy.cluster.hierarchy import linkage, dendrogram
 from scipy.spatial.distance import pdist, squareform
-
+from pathlib import Path
 
 st.set_page_config(page_title="Exploring Text Preparation with Jaccard Similarity", page_icon="📈")
 
 st.markdown("# Exploring Text Preparation")
 st.sidebar.header("The Tokenization")
 
+path = Path(__file__).parent.parent
+
 #download sets
-with open('./pngs/mergings1.set', 'rb') as file:
+with open(path /'./pngs/mergings1.set', 'rb') as file:
     mergings1 = pickle.load(file)
-with open('./pngs/mergings2.set', 'rb') as file:
+with open(path /'./pngs/mergings2.set', 'rb') as file:
     mergings2 = pickle.load(file)
-with open('./pngs/mergings3.set', 'rb') as file:
+with open(path /'./pngs/mergings3.set', 'rb') as file:
     mergings3 = pickle.load(file)
-with open('./pngs/mergings4.set', 'rb') as file:
+with open(path /'./pngs/mergings4.set', 'rb') as file:
     mergings4 = pickle.load(file)
 
 with open('./pngs/complete_corpus_sentence_tokenized_names.set', 'rb') as file:
