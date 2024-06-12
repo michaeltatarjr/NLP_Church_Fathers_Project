@@ -1,6 +1,6 @@
 pickle
 urllib.error
-from PIL import Image
+PIL import Image
 numpy as np
 matplotlib.pyplot as plt
 matplotlib.cm
