@@ -9,7 +9,7 @@ from folium.plugins import FastMarkerCluster
 import pandas as pd
 import numpy as np
 import pickle
-
+from pathlib import Path
 
 st.set_page_config(page_title="Exploring Church Fathers Birth Places")
 
@@ -43,8 +43,10 @@ st.write(
 **Ignatius**: A bishop of Antioch, was martyred by being thrown to wild beasts in the Colosseum in Rome around 108 AD. His letters written on the way to his execution are significant early Christian texts.
     """
 )
+
+path = Path(__file__).parent.parent
 #download data
-with open('./pngs/names_locations.DataFrame', 'rb') as file:
+with open(path /'./pngs/names_locations.DataFrame', 'rb') as file:
     names_locations = pickle.load(file)
 
 #Build and center a map

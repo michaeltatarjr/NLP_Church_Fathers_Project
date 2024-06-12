@@ -29,7 +29,7 @@ with open(path /'./pngs/mergings3.set', 'rb') as file:
 with open(path /'./pngs/mergings4.set', 'rb') as file:
     mergings4 = pickle.load(file)
 
-with open('./pngs/complete_corpus_sentence_tokenized_names.set', 'rb') as file:
+with open(path /'./pngs/complete_corpus_sentence_tokenized_names.set', 'rb') as file:
     complete_corpus_sentence_tokenized_names = pickle.load(file)
 
 st.write(

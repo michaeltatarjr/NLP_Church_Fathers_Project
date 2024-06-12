@@ -9,7 +9,7 @@ from nltk.tokenize import sent_tokenize, word_tokenize, regexp_tokenize
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
-
+from pathlib import Path
 
 st.set_page_config(page_title="Exploring Dimensionality with t-SNE")
 
@@ -23,13 +23,16 @@ st.write(
 In both cases, model is tokenized at the word level, and by term frequency–inverse document frequency.
     """
 )
+
+path = Path(__file__).parent.parent
+
 #download sets
-with open('./pngs/embeddings_2d.ndarray', 'rb') as file:
+with open(path /'./pngs/embeddings_2d.ndarray', 'rb') as file:
     embeddings_2d = pickle.load(file)
-with open('./pngs/embeddings_3d.ndarray', 'rb') as file:
+with open(path /'./pngs/embeddings_3d.ndarray', 'rb') as file:
     embeddings_3d = pickle.load(file)
 
-with open('./pngs/labels2.set', 'rb') as file:
+with open(path /'./pngs/labels2.set', 'rb') as file:
     labels = pickle.load(file)
 
     
