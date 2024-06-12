@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.cm
 from matplotlib.colors import Normalize
 import seaborn as sns
+from pathlib import Path
 
 st.set_page_config(page_title="Getting to know the corpus")
 
