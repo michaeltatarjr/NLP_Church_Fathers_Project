@@ -3,7 +3,7 @@ numpy
 matplotlib
 seaborn
 scipy
-altair
+altair==4.2.2
 scikit-learn
 nltk
 plotly
